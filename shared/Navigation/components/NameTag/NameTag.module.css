@@ -1,0 +1,40 @@
+@keyframes slideUpAnimation {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  30%,
+  70% {
+    transform: translateY(-24px);
+  }
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.NameTag {
+  display: flex;
+  color: #000;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  line-height: 24px;
+  height: 24px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.firstName {
+  align-items: flex-end;
+  animation: slideUpAnimation 8s infinite ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.lastName {
+  align-items: flex-start;
+  animation: slideUpAnimation 8s infinite ease-in-out;
+  animation-delay: 0.5s;
+  display: flex;
+  flex-direction: column;
+}
