@@ -1,0 +1,13 @@
+.content {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 75%;
+  }
+}
