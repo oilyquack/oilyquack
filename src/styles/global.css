@@ -1,3 +1,5 @@
+@import "./font.css";
+
 :global(*),
 :global(*::before),
 :global(*::after) {
@@ -31,4 +33,18 @@
 :global(a:focus) {
   text-decoration: underline solid transparent;
   text-underline-position: under;
+}
+
+:global(h1) {
+  font-size: var(--font-size-lg);
+  line-height: 1.2;
+}
+
+:global(h2) {
+  font-size: var(--font-size-md);
+  line-height: 1.2;
+}
+
+:global(p) {
+  font-size: var(--font-size-sm);
 }
