@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 
 import NameTag from "./components/NameTag";
@@ -7,8 +8,8 @@ const Navigation = () => (
   <header className={styles.navigation}>
     <NameTag />
     <div className={styles.navItems}>
-      <a href="/">Home</a>
-      <a href="/blog">Blog</a>
+      <Link to="/">Home</Link>
+      <Link to="/blog">Blog</Link>
     </div>
   </header>
 );
