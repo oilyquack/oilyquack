@@ -8,6 +8,10 @@ module.exports = {
   /* Your site config here */
   plugins: [`gatsby-plugin-react-helmet`],
   siteMetadata: {
-    title: "oilyquack | Ollie Crook - Software Developer & Malapropism",
+    author: "Ollie Crook",
+    description:
+      "I’m a software developer who enjoys creating accessible web experiences, working with awesome teams and using great technology and design principles to empower users and colleagues",
+    siteUrl: "http://oilyquack.com",
+    title: "Ollie Crook | Software Developer & Malapropism",
   },
 };
