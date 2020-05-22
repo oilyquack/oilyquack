@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features : Home renders correctly 1`] = `
+<div>
+  <div
+    class="content"
+  >
+    <h1>
+      Hi. My name is Ollie.
+    </h1>
+    <h2>
+      I’m a software developer, noisy musician and cat enthusiast.
+    </h2>
+    <p>
+      I like building great front end applications with a passion for making accessible web experiences.
+    </p>
+    <p>
+      <strong>
+        oilyquack
+      </strong>
+       is a
+       
+      <a
+        href="https://en.wikipedia.org/wiki/Malapropism"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        malapropism
+      </a>
+       
+      of my real name. I started using it when I was a teacher to stop students finding me online. I’m too fond of how silly it sounds to change it back. I also get a kick out of people saying it out loud in job interviews.
+    </p>
+    <p>
+      You can see some of my work on
+       
+      <a
+        href="https://github.com/oilyquack"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        GitHub
+      </a>
+       
+      or read my ramblings on
+       
+      <a
+        href="https://twitter.com/oilyquack"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Twitter
+      </a>
+      .
+    </p>
+  </div>
+  <img
+    alt="Ollie Crook"
+    class="image"
+    src="test-file-stub"
+  />
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shared : Navigation renders correctly 1`] = `
+<div>
+  <header
+    class="navigation"
+  >
+    <div
+      class="NameTag"
+    >
+      <span
+        class="firstName"
+      >
+        <span>
+          Ollie
+        </span>
+        <span>
+          Oily 
+        </span>
+      </span>
+      <span>
+         
+      </span>
+      <span
+        class="lastName"
+      >
+        <span>
+          Crook
+        </span>
+        <span>
+          Quack
+        </span>
+      </span>
+    </div>
+    <div
+      class="navItems"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        href="/blog"
+      >
+        Blog
+      </a>
+    </div>
+  </header>
+</div>
+`;
