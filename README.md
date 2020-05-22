@@ -14,5 +14,4 @@ To build, run the command `gatsby develop`.
 
 ## TODO
 
-- Tests
 - Create blog
