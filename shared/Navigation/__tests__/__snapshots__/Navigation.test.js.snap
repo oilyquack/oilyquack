@@ -32,20 +32,6 @@ exports[`shared : Navigation renders correctly 1`] = `
         </span>
       </span>
     </div>
-    <div
-      class="navItems"
-    >
-      <a
-        href="/"
-      >
-        Home
-      </a>
-      <a
-        href="/blog"
-      >
-        Blog
-      </a>
-    </div>
   </header>
 </div>
 `;

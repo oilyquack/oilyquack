@@ -7,10 +7,10 @@ import styles from "./Navigation.module.css";
 const Navigation = () => (
   <header className={styles.navigation}>
     <NameTag />
-    <div className={styles.navItems}>
+    {/* <div className={styles.navItems}>
       <Link to="/">Home</Link>
       <Link to="/blog">Blog</Link>
-    </div>
+    </div> */}
   </header>
 );
 
