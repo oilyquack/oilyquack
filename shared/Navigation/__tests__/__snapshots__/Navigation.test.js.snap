@@ -15,7 +15,7 @@ exports[`shared : Navigation renders correctly 1`] = `
           Ollie
         </span>
         <span>
-          Oily 
+          @Oily
         </span>
       </span>
       <span>

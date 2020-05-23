@@ -6,7 +6,7 @@ const NameTag = () => (
   <div className={styles.NameTag}>
     <span className={styles.firstName}>
       <span>Ollie</span>
-      <span>Oily </span>
+      <span>@Oily</span>
     </span>
     <span> </span>
     <span className={styles.lastName}>

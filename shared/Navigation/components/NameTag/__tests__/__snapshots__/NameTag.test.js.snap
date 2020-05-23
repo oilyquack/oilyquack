@@ -12,7 +12,7 @@ exports[`shared : Navigation : components : NameTag renders correctly 1`] = `
         Ollie
       </span>
       <span>
-        Oily 
+        @Oily
       </span>
     </span>
     <span>
