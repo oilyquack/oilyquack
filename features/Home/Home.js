@@ -1,6 +1,6 @@
 import React from "react";
 
-import ollie from "./assets/ollie.png";
+import ollie from "./assets/ollie.jpg";
 import styles from "./Home.module.css";
 
 const Home = () => (
