@@ -3,7 +3,57 @@
 exports[`features : FourOhFour renders correctly 1`] = `
 <div>
   <h1>
-    Uh oh!
+    FOUR, OH FOUR!
   </h1>
+  <p>
+    <a
+      href="/"
+    >
+      Home
+    </a>
+     is where you want to be.
+  </p>
+  <div
+    class="content"
+  >
+    <img
+      alt="David Byrne"
+      class="image"
+      src="test-file-stub"
+    />
+    <span
+      class="quote"
+    >
+      <p>
+        And you may ask yourself
+      </p>
+      <p>
+        How do I work this?
+      </p>
+      <p>
+        And you may ask yourself
+      </p>
+      <p>
+        Where is that large automobile?
+      </p>
+      <p>
+        And you may tell yourself
+      </p>
+      <p>
+        This is not my beautiful house!
+      </p>
+      <p>
+        And you may tell yourself
+      </p>
+      <p>
+        This is not my beautiful wife!
+      </p>
+      <p
+        class="author"
+      >
+        — David Byrne, 1980
+      </p>
+    </span>
+  </div>
 </div>
 `;

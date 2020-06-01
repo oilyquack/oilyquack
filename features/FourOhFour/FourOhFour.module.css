@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.author {
+  font-style: italic;
+}
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+  }
+
+  .image {
+    width: 45%;
+  }
+
+  .quote {
+    padding: 0 30px;
+  }
+
+  .quote :nth-child(1) {
+    margin-top: 0;
+  }
+}
