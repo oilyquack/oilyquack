@@ -10,7 +10,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "NODE_ENV=production start-storybook -s public",
+    "build-storybook": "NODE_ENV=production build-storybook -s public"
   },
   "dependencies": {
     "gatsby": "^2.21.22",
@@ -21,8 +23,14 @@
     "react-helmet": "^6.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "@testing-library/react": "^10.0.4",
     "babel-jest": "^26.0.1",
+    "babel-loader": "^8.1.0",
     "babel-preset-gatsby": "^0.4.7",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.0.1",
