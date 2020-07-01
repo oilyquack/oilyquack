@@ -14,14 +14,19 @@
 }
 
 .NameTag {
-  display: flex;
   color: #000;
+  display: flex;
   font-family: "Courier New", Courier, monospace;
   font-size: 24px;
-  line-height: 24px;
   height: 26px;
+  line-height: 24px;
   overflow: hidden;
   width: fit-content;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .firstName {

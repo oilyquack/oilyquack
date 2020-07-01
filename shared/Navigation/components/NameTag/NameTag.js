@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./NameTag.module.css";
 
 const NameTag = () => (
-  <div className={styles.NameTag}>
+  <div className={styles.NameTag} unselectable="on">
     <span className={styles.firstName}>
       <span>Ollie</span>
       <span>@Oily</span>
