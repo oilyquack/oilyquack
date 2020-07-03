@@ -21,12 +21,8 @@
   height: 26px;
   line-height: 24px;
   overflow: hidden;
+  user-select: none;
   width: fit-content;
-
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
 }
 
 .firstName {
