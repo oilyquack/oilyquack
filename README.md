@@ -4,13 +4,19 @@ An overly engineered personal website for me to sell my wares and experiment wit
 
 As a first go around, I wanted to see what the hype was about with Gatsby (spoilers: it’s neat) and continue my new love with CSS modules.
 
-## Dependencies 📓
+## Dependencies 📝
 
 This project requires the following:
 
 - The [Gatsby CLI Tool](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli)
 
 To build, run the command `gatsby develop`.
+
+## Storybook 📓
+
+Components library is documented using [Storybook](storybook.js.org).
+
+You can see them by running `yarn storybook`.
 
 ## TODO
 
