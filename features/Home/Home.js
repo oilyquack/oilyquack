@@ -9,8 +9,8 @@ const Home = () => (
       <h1>Hi. My name is Ollie.</h1>
       <h2>I’m a software developer, noisy musician and cat enthusiast.</h2>
       <p>
-        I like building great front end applications with a passion for making
-        accessible web experiences.
+        As a developer, I’m passionate about building accessible and performant
+        applications.
       </p>
       <p>
         <strong>oilyquack</strong> is a{" "}
@@ -22,9 +22,9 @@ const Home = () => (
           malapropism
         </a>{" "}
         of my real name. I started using it when I was a teacher to stop
-        students finding me online. I’m too fond of how silly it sounds to
-        change it back. I also get a kick out of people saying it out loud in
-        job interviews.
+        students from finding me online. Now I’m too fond of how silly it sounds
+        to change it back. It’s also too much fun hearing people say it out loud
+        in important meetings.
       </p>
       <p>
         You can see some of my work on{" "}
