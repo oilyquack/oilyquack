@@ -19,6 +19,8 @@ module.exports = {
       require.resolve("@babel/plugin-proposal-class-properties"),
       // use babel-plugin-remove-graphql-queries to remove static queries from components when rendering in storybook
       require.resolve("babel-plugin-remove-graphql-queries"),
+      // use babel-plugin-react-docgen for docgen support.
+      require.resolve("babel-plugin-react-docgen"),
     ];
 
     for (let i = 0; i < config.module.rules.length; i++) {
@@ -49,8 +51,9 @@ module.exports = {
           loader: "css-loader",
           options: {
             importLoaders: 1,
-            modules: true,
-            localIdentName: "[name]__[local]--[hash:base64:5]",
+            modules: {
+              localIdentName: "[name]__[local]--[hash:base64:5]",
+            },
           },
         },
       ],
