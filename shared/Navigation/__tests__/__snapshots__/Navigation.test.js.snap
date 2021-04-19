@@ -6,7 +6,7 @@ exports[`shared : Navigation renders correctly 1`] = `
     class="navigation"
   >
     <div
-      class="NameTag"
+      class="NameTagWrapper"
       unselectable="on"
     >
       <span

@@ -13,7 +13,7 @@
   }
 }
 
-.NameTag {
+.NameTagWrapper {
   color: #000;
   display: flex;
   font-family: "Courier New", Courier, monospace;

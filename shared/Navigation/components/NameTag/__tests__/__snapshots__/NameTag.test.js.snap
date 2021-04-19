@@ -3,7 +3,7 @@
 exports[`shared : Navigation : components : NameTag renders correctly 1`] = `
 <div>
   <div
-    class="NameTag"
+    class="NameTagWrapper"
     unselectable="on"
   >
     <span

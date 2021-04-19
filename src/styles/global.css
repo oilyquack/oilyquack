@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
-:global(*),
-:global(*::before),
-:global(*::after) {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-:global(html) {
+html {
   scroll-behavior: smooth;
 }
 
-:global(body) {
+body {
   background: #fff;
   color: #000;
   font-family: "Roboto", sans-serif;
@@ -20,21 +20,21 @@
   text-rendering: optimizeLegibility;
 }
 
-:global(h1) {
+h1 {
   font-size: 50px;
   line-height: 1.2;
 }
 
-:global(h2) {
+h2 {
   font-size: 31px;
   line-height: 1.2;
 }
 
-:global(p) {
+p {
   font-size: 19px;
 }
 
-:global(a) {
+a {
   color: #435f35;
   border-bottom: 1px solid currentColor;
   display: inline-block;
@@ -44,9 +44,9 @@
   transition: border-bottom 0.5s ease;
 }
 
-:global(a:active),
-:global(a:hover),
-:global(a:focus) {
+a:active,
+a:hover,
+a:focus {
   border-bottom: 1px solid transparent;
   text-decoration: none;
 }

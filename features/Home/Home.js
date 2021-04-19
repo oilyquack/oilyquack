@@ -1,11 +1,11 @@
 import React from "react";
 
 import ollie from "./assets/ollie.jpg";
-import styles from "./Home.module.css";
+import { content, image } from "./Home.module.css";
 
 const Home = () => (
   <>
-    <div className={styles.content}>
+    <div className={content}>
       <h1>Hi. My name is Ollie.</h1>
       <h2>I’m a software developer, noisy musician and cat enthusiast.</h2>
       <p>
@@ -46,7 +46,7 @@ const Home = () => (
         .
       </p>
     </div>
-    <img alt="Ollie Crook" className={styles.image} src={ollie} />
+    <img alt="Ollie Crook" className={image} src={ollie} />
   </>
 );
 

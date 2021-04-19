@@ -2,10 +2,10 @@ import { Link } from "gatsby";
 import React from "react";
 
 import NameTag from "./components/NameTag";
-import styles from "./Navigation.module.css";
+import { navigation } from "./Navigation.module.css";
 
 const Navigation = () => (
-  <header className={styles.navigation}>
+  <header className={navigation}>
     <NameTag />
     {/* <div className={styles.navItems}>
       <Link to="/">Home</Link>

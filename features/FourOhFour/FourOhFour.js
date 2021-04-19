@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 
 import david from "./assets/davidbyrne.gif";
-import styles from "./FourOhFour.module.css";
+import { author, content, image, quote } from "./FourOhFour.module.css";
 
 const FourOhFour = () => (
   <>
@@ -10,10 +10,10 @@ const FourOhFour = () => (
     <p>
       <Link to="/">Home</Link> is where you want to be.
     </p>
-    <div className={styles.content}>
-      <img alt="David Byrne" className={styles.image} src={david} />
+    <div className={content}>
+      <img alt="David Byrne" className={image} src={david} />
 
-      <span className={styles.quote}>
+      <span className={quote}>
         <p>And you may ask yourself</p>
         <p>How do I work this?</p>
         <p>And you may ask yourself</p>
@@ -23,7 +23,7 @@ const FourOhFour = () => (
         <p>And you may tell yourself</p>
         <p>This is not my beautiful wife!</p>
 
-        <p className={styles.author}>— David Byrne, 1980</p>
+        <p className={author}>— David Byrne, 1980</p>
       </span>
     </div>
   </>
