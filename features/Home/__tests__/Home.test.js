@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import React from "react";
 
 import Home from "../Home";
@@ -10,32 +10,29 @@ describe("features : Home", () => {
   });
 
   it("should link to malapropism definition on wikipedia", () => {
-    const { getByText } = render(<Home />);
+    render(<Home />);
 
-    const link = getByText(/malapropism/);
+    const link = screen.getByRole("link", { name: /malapropism/ });
 
-    const resultHref = new URL(link.href).toString();
-
-    expect(resultHref).toBe("https://en.wikipedia.org/wiki/Malapropism");
+    expect(link).toHaveAttribute(
+      "href",
+      "https://en.wikipedia.org/wiki/Malapropism"
+    );
   });
 
   it("should link to my GitHub page", () => {
-    const { getByText } = render(<Home />);
+    render(<Home />);
 
-    const link = getByText(/GitHub/);
+    const link = screen.getByRole("link", { name: /GitHub/ });
 
-    const resultHref = new URL(link.href).toString();
-
-    expect(resultHref).toBe("https://github.com/oilyquack");
+    expect(link).toHaveAttribute("href", "https://github.com/oilyquack");
   });
 
   it("should link to my Twitter page", () => {
-    const { getByText } = render(<Home />);
+    render(<Home />);
 
-    const link = getByText(/Twitter/);
+    const link = screen.getByRole("link", { name: /Twitter/ });
 
-    const resultHref = new URL(link.href).toString();
-
-    expect(resultHref).toBe("https://twitter.com/oilyquack");
+    expect(link).toHaveAttribute("href", "https://twitter.com/oilyquack");
   });
 });
