@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  pathPrefix: '/oilyquack',
   plugins: [`gatsby-plugin-postcss`, `gatsby-plugin-react-helmet`],
   siteMetadata: {
     author: "Ollie Crook",
