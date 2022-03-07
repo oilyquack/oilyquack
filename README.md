@@ -14,7 +14,7 @@ To build, run the command `gatsby develop`.
 
 ## Storybook 📓
 
-Components library is documented using [Storybook](storybook.js.org).
+Components library is documented using [Storybook](https://storybook.js.org).
 
 You can see them by running `yarn storybook`.
 
