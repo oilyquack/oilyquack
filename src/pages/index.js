@@ -4,9 +4,11 @@ import Layout from "../layout/Layout";
 import Home from "../../features/Home";
 import SEO from "../components/SEO";
 
-export default () => (
+const HomePage = () => (
   <Layout>
     <SEO />
     <Home />
   </Layout>
 );
+
+export default HomePage;

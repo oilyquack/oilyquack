@@ -4,9 +4,11 @@ import Layout from "../layout/Layout";
 import Blog from "../../features/Blog";
 import SEO from "../components/SEO";
 
-export default () => (
+const BlogPage = () => (
   <Layout>
     <SEO />
     <Blog />
   </Layout>
 );
+
+export default BlogPage;

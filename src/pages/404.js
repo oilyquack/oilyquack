@@ -4,9 +4,11 @@ import Layout from "../layout/Layout";
 import FourOhFour from "../../features/FourOhFour";
 import SEO from "../components/SEO";
 
-export default () => (
+const FourOhFourPage = () => (
   <Layout>
     <SEO />
     <FourOhFour />
   </Layout>
 );
+
+export default FourOhFourPage;
