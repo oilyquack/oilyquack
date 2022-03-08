@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoilyquack=self.webpackChunkoilyquack||[]).push([[7],{9019:function(e,n,t){t.r(n),t.d(n,{default:function(){return a}});var l=t(7294),u=t(373),r=function(){return l.createElement(l.Fragment,null,l.createElement("h1",null,"Coming soon"))},c=t(6838),a=function(){return l.createElement(u.Z,null,l.createElement(c.Z,null),l.createElement(r,null))}}}]);
+//# sourceMappingURL=component---src-pages-blog-js-07673024dd2663d8f040.js.map
