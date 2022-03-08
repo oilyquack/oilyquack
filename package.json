@@ -1,19 +1,21 @@
 {
+  "description": "Another over-engineered personal website",
+  "homepage": "https://oilyquack.github.io/oilyquack",
   "name": "oilyquack",
   "private": true,
-  "description": "Another over-engineered personal website",
   "version": "1.0.0",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b deploy",
+    "build-storybook": "NODE_ENV=production build-storybook -s public",
     "build": "gatsby build",
+    "clean": "gatsby clean",
+    "deploy": "gh-pages -d build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "predeploy": "yarn run build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "jest",
+    "start": "yarn run develop",
     "storybook": "NODE_ENV=test start-storybook -p 6006 -s ./public",
-    "build-storybook": "NODE_ENV=production build-storybook -s public"
+    "test": "jest"
   },
   "dependencies": {
     "gatsby": "^3.14.3",
