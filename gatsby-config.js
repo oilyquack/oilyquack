@@ -10,7 +10,7 @@ module.exports = {
     author: "Ollie Crook",
     description:
       "I’m a software developer who enjoys creating accessible web experiences, working with awesome teams and using great technology and design principles to empower users and colleagues",
-    siteUrl: "http://oilyquack.com",
+    siteUrl: "http://olliecrook.dev",
     title: "Ollie Crook | Software Developer & Malapropism",
   },
 };
