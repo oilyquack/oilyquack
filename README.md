@@ -1,23 +1,30 @@
-# OilyQuack 🛢🦆
+## Usage
 
-An overly engineered personal website for me to sell my wares and experiment with some new technologies/things that take my interest.
+```bash
+$ yarn install
+```
 
-As a first go around, I wanted to see what the hype was about with Gatsby (spoilers: it’s neat) and continue my new love with CSS modules.
+### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
-## Dependencies 📝
+## Available Scripts
 
-This project requires the following:
+In the project directory, you can run:
 
-- The [Gatsby CLI Tool](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli)
+### `yarn run dev` or `yarn start`
 
-To build, run the command `gatsby develop`.
+Runs the app in the development mode.<br>
+Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
-## Storybook 📓
+The page will reload if you make edits.<br>
 
-Components library is documented using [Storybook](https://storybook.js.org).
+### `yarn run build`
 
-You can see them by running `yarn storybook`.
+Builds the app for production to the `dist` folder.<br>
+It correctly bundles Solid in production mode and optimizes the build for the best performance.
 
-## TODO
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-- Create blog
+## Deployment
+
+You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
