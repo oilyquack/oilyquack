@@ -1,9 +1,6 @@
 IMAGE_NAME = oilyquack
 PORT = 4000
 
-# Check if the Docker image exists
-DOCKER_IMAGE_EXISTS := $(shell docker image inspect $(IMAGE_NAME) 2> /dev/null)
-
 # Build the Docker image
 build:
 	docker build -t $(IMAGE_NAME) .
