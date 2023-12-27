@@ -1,11 +1,10 @@
 /* @refresh reload */
+import { Router } from "@solidjs/router";
+import { lazy } from "solid-js";
 import { render } from "solid-js/web";
-import { Router, Route } from "@solidjs/router";
 
 import "./index.css";
 import App from "./App";
-import Home from "./pages/Home";
-import NotFound from "./pages/NotFound";
 
 const root = document.getElementById("root");
 
@@ -15,12 +14,15 @@ if (!root || !(root instanceof HTMLElement)) {
   );
 }
 
-render(
-  () => (
-    <Router root={App}>
-      <Route path="/" component={Home} />
-      <Route path="*404" component={NotFound} />
-    </Router>
-  ),
-  root,
-);
+const routes = [
+  {
+    path: "/",
+    component: lazy(() => import("./pages/Home")),
+  },
+  {
+    path: "*404",
+    component: lazy(() => import("./pages/NotFound")),
+  },
+];
+
+render(() => <Router root={App}>{routes}</Router>, root);
