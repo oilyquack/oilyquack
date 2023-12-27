@@ -7,14 +7,14 @@ const Home: Component = () => {
   return (
     <>
       <div class={styles.content}>
-        <h1>Hi. My name is Ollie.</h1>
-        <h2>I’m a software developer, noisy musician and cat enthusiast.</h2>
+        <h1>Hey there, I’m Ollie.</h1>
+        <h2>
+          I’m a software developer who loves creating apps that are both
+          high-performing and easy to use.
+        </h2>
+        <p>Besides coding, I’m into making music and hanging out with cats.</p>
         <p>
-          As a developer, I’m passionate about building accessible and
-          performant applications.
-        </p>
-        <p>
-          <strong>oilyquack</strong> is a{" "}
+          My online name, <strong>oilyquack</strong>, is a
           <a
             href="https://en.wikipedia.org/wiki/Malapropism"
             target="_blank"
@@ -22,29 +22,21 @@ const Home: Component = () => {
           >
             malapropism
           </a>{" "}
-          of my real name. I started using it when I was a teacher to stop
-          students from finding me online. Now I’m too fond of how silly it
-          sounds to change it back. It’s also too much fun hearing people say it
-          out loud in important meetings.
+          I started using as a way to stay incognito as a teacher, but now I
+          just love how goofy it sounds.
         </p>
         <p>
-          You can see some of my work on{" "}
+          I work on all parts of a project, making sure things run smoothly and
+          helping teams grow. Check out my code on{" "}
           <a
             href="https://github.com/oilyquack"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
-          </a>{" "}
-          or read my ramblings on{" "}
-          <a
-            href="https://twitter.com/oilyquack"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
           </a>
-          .
+          . I'm passionate about what I do, and I'm excited to bring that
+          enthusiasm to your next project.
         </p>
       </div>
       <img alt="Ollie Crook" class={styles.image} src={ollie} />
