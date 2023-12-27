@@ -9,12 +9,12 @@ const Home: Component = () => {
       <div class={styles.content}>
         <h1>Hey there, I’m Ollie.</h1>
         <h2>
-          I’m a software developer who loves creating apps that are both
+          I’m a software developer who loves creating applications that are both
           high-performing and easy to use.
         </h2>
         <p>Besides coding, I’m into making music and hanging out with cats.</p>
         <p>
-          My online name, <strong>oilyquack</strong>, is a
+          My online name, <strong>oilyquack</strong>, is a{" "}
           <a
             href="https://en.wikipedia.org/wiki/Malapropism"
             target="_blank"
@@ -26,8 +26,8 @@ const Home: Component = () => {
           just love how goofy it sounds.
         </p>
         <p>
-          I work on all parts of a project, making sure things run smoothly and
-          helping teams grow. Check out my code on{" "}
+          I love working on all parts of the software stack and helping teams
+          grow and develop. Check out my code on{" "}
           <a
             href="https://github.com/oilyquack"
             target="_blank"
@@ -35,7 +35,7 @@ const Home: Component = () => {
           >
             GitHub
           </a>
-          . I'm passionate about what I do, and I'm excited to bring that
+          . I’m passionate about what I do, and I’m excited to bring that
           enthusiasm to your next project.
         </p>
       </div>
